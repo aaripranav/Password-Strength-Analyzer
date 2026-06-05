@@ -1,0 +1,35 @@
+# Password Strength Analyzer - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (already in Python standard library):
+# - re (regular expressions)
+# - string (string constants)
+# - math (mathematical functions)
+# - hashlib (cryptographic hashing)
+# - sqlite3 (database)
+# - os (operating system interface)
+# - datetime (date and time)
+# - random (random number generation)
+# - sys (system-specific parameters)
+# - argparse (command-line argument parsing)
+
+# Optional: For enhanced testing and development
+pytest>=7.0.0          # Unit testing framework
+pytest-cov>=4.0.0      # Code coverage for tests
+black>=23.0.0          # Code formatter
+flake8>=6.0.0          # Code linter
+mypy>=1.0.0            # Static type checker
+
+# Optional: For better password hashing (more secure than SHA-256)
+bcrypt>=4.0.0          # Better hashing algorithm
+cryptography>=40.0.0   # Cryptographic library
+
+# Optional: For web interface
+flask>=2.3.0           # Web framework
+flask-cors>=4.0.0      # CORS support
+
+# Optional: For advanced features
+requests>=2.28.0       # HTTP library for checking compromised passwords
+
+# Note: Most core functionality works with Python standard library only!
+# Install just what you need for your use case.
